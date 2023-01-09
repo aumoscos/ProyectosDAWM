@@ -1,0 +1,58 @@
+:host { 
+    display: contents; 
+  }
+  .home-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000;
+  }
+  .home-container1 {
+    flex: 0 0 auto;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .home-image {
+    width: 100px;
+    object-fit: cover;
+  }
+ 
+    .home-container {
+      background-color: #000000;
+    }
+    .home-container1 {
+      width: 453px;
+      height: 740px;
+    }
+    .home-image {
+      width: 322px;
+      height: 201px;
+    }
+    .home-text {
+      color: rgb(255, 255, 255);
+      width: auto;
+      height: 100px;
+      font-size: 90px;
+    }
+    .home-text1 {
+      color: rgb(255, 255, 255);
+      width: auto;
+      height:  100px;
+      font-size: 90px;
+    }
+    .home-text2 {
+      color: rgb(255, 255, 255);
+      width: auto;
+      height:  100px;
+      font-size: 90px;
+    }
+    a {
+        text-decoration: none;
+      }

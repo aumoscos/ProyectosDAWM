@@ -1,0 +1,21 @@
+<body>
+<mat-toolbar>
+    <span>Classes</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <a routerLink="/splash"><img src="../../assets/48cb5349f515f6e59edc2a4de294f439.png"></a>
+    </button>
+  </mat-toolbar>
+<div class="col" *ngFor="let class of classList">
+    <mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title>{{class.title}}</mat-card-title>
+          <mat-card-subtitle>{{class.userId}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>{{class.id}}</p>
+          <p>{{class.completed}}</p>
+        </mat-card-content>
+      </mat-card>
+</div>
+</body>
